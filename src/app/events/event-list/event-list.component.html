@@ -1,0 +1,7 @@
+<!-- <p>
+  event-list works!
+  {{event.name}}
+</p> -->
+<!-- <app-navbar></app-navbar> -->
+<!-- <router-outlet></router-outlet> -->
+<app-event-thumb (eventClick)= "handleClickMe($event)" *ngFor="let event of events" [event]="event"></app-event-thumb>

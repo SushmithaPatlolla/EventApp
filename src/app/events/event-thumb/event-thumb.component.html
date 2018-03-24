@@ -1,0 +1,11 @@
+<div [routerLink]="['/events', event.id]" class="styling">
+{{event.id}}
+{{event.name}}
+{{event.duration}}
+<!-- {{event.price}}
+{{event.date}} -->
+<div [class.green]="true">
+  {{event.time}}
+</div>
+</div>
+<!-- <button (click)="handleClickMe()">Click</button> -->
